@@ -2,22 +2,22 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-*{
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-}
+  }
 
-body{
+  body {
     background: #F5F5F5;
-}
+  }
 
-header{
+  header {
     height: 100px;
-}
+  }
 
-.container__header{
+  .container__header {
     max-width: 1200px;
     height: 100%;
     margin: auto;
@@ -26,34 +26,34 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
-.logo img{
+  .logo img {
     width: 180px;
-}
+  }
 
-.menu nav ul{
+  .menu nav ul {
     display: flex;
-}
+  }
 
-.menu nav ul li{
+  .menu nav ul li {
     list-style: none;
     padding: 0px 20px;
-}
+  }
 
-.menu nav ul li a{
+  .menu nav ul li a {
     font-size: 16px;
     text-decoration: none;
     color: #000;
     transition: opacity 300ms;
-}
+  }
 
-.menu nav ul li a:hover{
+  .menu nav ul li a:hover {
     opacity: 0.6;
-}
+  }
 
-.btn__header-register,
-.btn__register-cover{
+  .btn__header-register,
+  .btn__register-cover {
     padding: 14px 50px;
     border: none;
     background: #000;
@@ -62,53 +62,53 @@ header{
     font-size: 16px;
     cursor: pointer;
     transition: background, color, 300ms;
-}
+  }
 
 
-.btn__header-register:hover,
-.btn__register-cover:hover{
+  .btn__header-register:hover,
+  .btn__register-cover:hover {
     background: #69F1A1;
     color: #000;
-}
+  }
 
-#icon_menu{
+  #icon_menu {
     display: none;
-}
+  }
 
-/*PORTADA - COVER*/
+  /*PORTADA - COVER*/
 
-main{
+  main {
     max-width: 1200px;
     height: calc(100vh + 800px);
     padding: 40px;
     margin: auto;
-}
+  }
 
-.cover{
+  .cover {
     display: flex;
     justify-content: center;
     margin-top: 60px;
-}
+  }
 
-.text__information-cover{
+  .text__information-cover {
     width: 50%;
-}
+  }
 
-.text__information-cover h1{
+  .text__information-cover h1 {
     font-size: 50px;
-}
+  }
 
-.text__information-cover p{
+  .text__information-cover p {
     font-size: 18px;
     margin-top: 40px;
-}
+  }
 
-.buttons__cover{
+  .buttons__cover {
     display: flex;
     margin-top: 40px;
-}
+  }
 
-.btn__readMore-cover{
+  .btn__readMore-cover {
     padding: 14px 40px;
     border: none;
     color: black;
@@ -117,60 +117,60 @@ main{
     cursor: pointer;
     margin-left: 10px;
     transition: background 300ms;
-}
+  }
 
-.btn__readMore-cover:hover{
+  .btn__readMore-cover:hover {
     background: #E8E8E8;
-}
+  }
 
-.media__cover{
+  .media__cover {
     width: 50%;
-}
+  }
 
-.media__cover img{
+  .media__cover img {
     width: 100%;
     margin-top: -40px;
-}
+  }
 
-/*BANNER*/
+  /*BANNER*/
 
-.container__banner{
+  .container__banner {
     margin-top: 80px;
-}
+  }
 
-.banner{
+  .banner {
     height: 250px;
     display: flex;
     align-items: center;
     background: #121214;
     position: relative;
-}
+  }
 
-.banner__icon-heart{
+  .banner__icon-heart {
     width: 35%;
     height: 100%;
-}
+  }
 
-#icon_heart{
+  #icon_heart {
     width: 400px;
     margin-top: 20px;
     position: relative;
-    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
-}
+    filter: drop-shadow(-40px 0px 30px rgba(0, 0, 0, 0.5));
+  }
 
-.banner__text{
+  .banner__text {
     width: 60%;
     position: relative;
     padding: 40px;
-}
+  }
 
-.banner__text h2{
+  .banner__text h2 {
     color: #fff;
     font-size: 32px;
     font-weight: 400;
-}
+  }
 
-.banner__text a{
+  .banner__text a {
     text-decoration: none;
     display: block;
     margin-top: 20px;
@@ -178,186 +178,522 @@ main{
     font-size: 16px;
     font-weight: bold;
     transition: color 300ms;
-}
+  }
 
-.banner__text a:hover{
+  .banner__text a:hover {
     color: #69F1A1;
-}
+  }
 
 
 
 
-@media (max-width: 1024px){
+  @media (max-width: 1024px) {
 
     .container__header,
-    main{
-        padding: 20px;
+    main {
+      padding: 20px;
     }
 
-    #icon_menu{
-        display: block;
-        cursor: pointer;
-        font-size: 24px;
+    #icon_menu {
+      display: block;
+      cursor: pointer;
+      font-size: 24px;
     }
 
-    .header__register{
-        display: none;
+    .header__register {
+      display: none;
     }
 
-    .menu{
-        height: 0px;
-        position: absolute;
-        right: 20px;
-        top: 70px;
-        overflow: hidden;
-        z-index: 10;
-        box-shadow: 0px 0px 30px -20px rgba(0,0,0,0.5);
-        transition: all 300ms;
+    .menu {
+      height: 0px;
+      position: absolute;
+      right: 20px;
+      top: 70px;
+      overflow: hidden;
+      z-index: 10;
+      box-shadow: 0px 0px 30px -20px rgba(0, 0, 0, 0.5);
+      transition: all 300ms;
     }
 
-    .menu nav ul{
-        padding: 20px 0px;
-        flex-direction: column;
-        background: #fff;
+    .menu nav ul {
+      padding: 20px 0px;
+      flex-direction: column;
+      background: #fff;
     }
 
-    .menu nav ul li{
-        padding: 10px 40px;
+    .menu nav ul li {
+      padding: 10px 40px;
     }
 
-    .mostrar_menu{ /*CLASE MANIPULADA POR JS*/
-        height: 235px;
+    .mostrar_menu {
+      /*CLASE MANIPULADA POR JS*/
+      height: 235px;
     }
 
-    .text__information-cover h1{
-        font-size: 40px;
+    .text__information-cover h1 {
+      font-size: 40px;
     }
 
-    .text__information-cover p{
-        font-size: 16px;
+    .text__information-cover p {
+      font-size: 16px;
     }
 
-    .banner__text h2{
-        font-size: 22px;
+    .banner__text h2 {
+      font-size: 22px;
     }
 
-    #icon_heart{
-        left: -60px;
+    #icon_heart {
+      left: -60px;
     }
 
-    .banner__icon-fire{
-        right: -20px;
+    .banner__icon-fire {
+      right: -20px;
     }
-}
+  }
 
-@media (max-width: 920px){
-    .text__information-cover{
-        width: 100%;
-    }
-
-    .media__cover{
-        display: none;
+  @media (max-width: 920px) {
+    .text__information-cover {
+      width: 100%;
     }
 
-    .banner{
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
+    .media__cover {
+      display: none;
     }
 
-    #icon_heart{
-        left: 0;
+    .banner {
+      width: 100%;
+      height: auto;
+      flex-wrap: wrap;
     }
 
-    .banner__text{
-        width: 100%;
-        margin-top: -100px;
+    #icon_heart {
+      left: 0;
     }
-}
+
+    .banner__text {
+      width: 100%;
+      margin-top: -100px;
+    }
+  }
 </style>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page con efecto Parallax - MagtimusPro</title>
 
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  <script>(function (w, d) { w.CollectId = "62bbba3f7fd5da5e20c68fc7"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async = true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
 </head>
+
 <body>
 
-    <header>
+  <header>
 
-        <div class="container__header">
+    <div class="container__header">
 
-            <div class="logo">
-                <img src="http://assets.stickpng.com/images/59b5bb466dbe923c39853e00.png" alt="">
-            </div>
+      <div class="logo">
+        <img src="http://assets.stickpng.com/images/59b5bb466dbe923c39853e00.png" alt="">
+      </div>
 
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="#">Nuestros Productos</a></li>
-                        <li><a href="#">Soluciones</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">¿Quienes Somos?</a></li>
-                        <li><a href="#">Contáctenos</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <i class="fa-solid fa-bars" id="icon_menu"></i>
-            <div class="header__register">
-                <input type="button" class="btn__header-register" value="Registrarse">
-            </div>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="#">Nuestros Productos</a></li>
+            <li><a href="index.html">Adquiera nuestro productos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">¿Quienes Somos?</a></li>
+            <li><a href="#contact">Contáctenos</a></li>
+          </ul>
+        </nav>
+      </div>
+      <i class="fa-solid fa-bars" id="icon_menu"></i>
+      <div class="header__register">
+        <input type="button" class="btn__header-register" value="Registrarse">
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+
+    <div class="cover">
+
+      <div class="text__information-cover">
+        <h1>Haz historia. No se limite a informar sobre ello.</h1>
+
+        <p>Vaya más allá de informar sobre datos históricos. Utilice la inteligencia procesable de cada
+          evento digital para impactar positivamente en los resultados comerciales. Continuamente. En
+          tiempo real. A escala.</p>
+
+        <div class="buttons__cover">
+          <input type="button" class="btn__register-cover" value="Registrarse">
+          <input type="button" class="btn__readMore-cover" value="Leer más">
         </div>
 
-    </header>
+      </div>
 
-    <main>
-
-        <div class="cover">
-
-            <div class="text__information-cover">
-                <h1>Haz historia. No se limite a informar sobre ello.</h1>
-
-                <p>Vaya más allá de informar sobre datos históricos. Utilice la inteligencia procesable de cada
-                    evento digital para impactar positivamente en los resultados comerciales. Continuamente. En
-                    tiempo real. A escala.</p>
-
-                <div class="buttons__cover">
-                    <input type="button" class="btn__register-cover" value="Registrarse">
-                    <input type="button" class="btn__readMore-cover" value="Leer más">
-                </div>
-
-            </div>
-
-            <div class="media__cover">
-                <img src="https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif"/>
-            </div>
+      <div class="media__cover">
+        <img src="https://c.tenor.com/v_hycgAm7_oAAAAC/vinyl-searching.gif" />
+      </div>
 
 
+    </div>
+
+    <div class="container__banner">
+
+      <div class="banner">
+        <div class="banner__icon-heart">
+          <img
+            src="https://www.azulweb.net/wp-content/uploads/2020/07/El-camino-para-ser-un-desarrollador-web-profesional.jpg"
+            id="icon_heart" alt="">
         </div>
+        <div class="banner__text">
+          <h2>La pila moderna de inteligencia de datos en la nube para su negocio de misión crítica.</h2>
+          <a href="#">Leer más</a>
+        </div>
+      </div>
+      <br>
 
-        <div class="container__banner">
+      <!--CODIGO COPEADO-->
 
-            <div class="banner">
-                <div class="banner__icon-heart">
-                    <img src="https://www.azulweb.net/wp-content/uploads/2020/07/El-camino-para-ser-un-desarrollador-web-profesional.jpg" id="icon_heart" alt="">
+
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          1
+        </div>
+        <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel"
+          aria-labelledby="pills-profile-tab">
+          <h2 class="" style="text-align: center; color: black;">Productos</h2>
+
+          <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+            <div class="col d-flex justify-content-center mb-4" style="background-color: black;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; background-color: black;">
+                <h5 class="" style="background-color: black; color: white; text-align: center; margin-top: 10px;">
+                  Individual</h5>
+                <img src="../img/icon1.jpg" class="card-img-top" alt="..." style="background-color: black;">
+                <div class="card-body" style="background-color: black; color: white;">
+                  <p class=""> ✓ Escucha tu musica favorita</p>
+                  <p class=""> ✓ Reproduce tus canciones favoritas en cualquier lugar del mundo, incluso sin conexion a
+                    internet</p>
+                  <p class=""> ✓ Renueva tu paquete despues del periodo de prueba</p>
+
+                  <h5 class="" style="color: white;">Precio: <span class="precio">$20.000</span></h5>
+                  <div class="d-grid gap-2">
+                  </div>
                 </div>
-                <div class="banner__text">
-                    <h2>La pila moderna de inteligencia de datos en la nube para su negocio de misión crítica.</h2>
-                    <a href="#">Leer más</a>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; ">
+                <h5 class="" style="background-color: black; color: white; text-align: center; margin-top: 10px;">Dúo
+                  dinámico</h5>
+                <img src="../img/icon1.jpg" class="card-img-top" alt="..." style="background-color: black;">
+
+                <div class="card-body" style="background-color: black; color: white;">
+                  <p class=""> ✓ 2 cuentas Premium para parejas que conviven</p>
+                  <p class=""> ✓ Reproduccion de musica sin anuncios, sin conexion</p>
+                  <p class=""> ✓ Renueva tu paquete despues del periodo de prueba</p>
+
+
+                  <h5 class="" style="color: white;">Precio: <span class="precio">$19.900</span></h5>
+                  <div class="d-grid gap-2">
+
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="" style="background-color: black; color: white; text-align: center; margin-top: 10px;">
+                  Paquete familiar</h5>
+                <img src="../img/icon1.jpg" class="card-img-top" alt="..." style="background-color: black;">
+
+                <div class="card-body" style="background-color: black; color: white;">
+                  <p class=""> ✓ 6 cuentas Premium para familiares que conviven</p>
+                  <p class=""> ✓ Bloquea la musica explicita</p>
+                  <p class=""> ✓ Reproduccion de musica sin anuncios y sin conexion</p>
+                  <p class=""> ✓ Renueva tu paquete despues del periodo de prueba</p>
+
+
+
+                  <h5 class="" style="color: white;">Precio: <span class="precio">$23.900</span></h5>
+                  <div class="d-grid gap-2">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="" style="background-color: black; color: white; text-align: center; margin-top: 10px;">
+                  Paquete especial para lo Semilleros</h5>
+                <img src="../img/icon1.jpg" class="card-img-top" alt="..." style="background-color: black;">
+
+                <div class="card-body" style="background-color: black; color: white;">
+                  <p class=""> ✓ Descuento especial para estudiantes universitarios que cumplan con los requisitos</p>
+                  <p class=""> ✓ Escucha musica sin anuncios</p>
+                  <p class=""> ✓ Escucha contenido en cualquiera lugar, incluso sin conexion</p>
+                  <p class=""> ✓ Renueva tu paquete despues del periodo de prueba</p>
+
+
+                  <h5 class="" style="color: white;">Precio: <span class="precio" style="color: white;">$0</span></h5>
+                  <div class="d-grid gap-2">
+                  </div>
+                </div>
+              </div>
             </div>
 
+
+
+          </div>
+
+          <form action="" class="formulario" id="formulario">
+            <!-- Grupo: Usuario -->
+            <div class="formulario__grupo" id="grupo__usuario">
+              <label for="usuario" class="formulario__label">Usuario</label>
+              <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="john123">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+            </div>
+      
+            <!-- Grupo: Nombre -->
+            <div class="formulario__grupo" id="grupo__nombre">
+              <label for="nombre" class="formulario__label">Nombre</label>
+              <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+            </div>
+      
+            <!-- Grupo: Contraseña -->
+            <div class="formulario__grupo" id="grupo__password">
+              <label for="password" class="formulario__label">Contraseña</label>
+              <div class="formulario__grupo-input">
+                <input type="password" class="formulario__input" name="password" id="password">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+            </div>
+      
+            <!-- Grupo: Contraseña 2 -->
+            <div class="formulario__grupo" id="grupo__password2">
+              <label for="password2" class="formulario__label">Repetir Contraseña</label>
+              <div class="formulario__grupo-input">
+                <input type="password" class="formulario__input" name="password2" id="password2">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+            </div>
+      
+            <!-- Grupo: Correo Electronico -->
+            <div class="formulario__grupo" id="grupo__correo">
+              <label for="correo" class="formulario__label">Correo Electrónico</label>
+              <div class="formulario__grupo-input">
+                <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+            </div>
+      
+            <!-- Grupo: Teléfono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+              <label for="telefono" class="formulario__label">Teléfono</label>
+              <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+            </div>
+      
+            <!-- Grupo: Terminos y Condiciones -->
+            <div class="formulario__grupo" id="grupo__terminos">
+              <label class="formulario__label">
+                <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                Acepto los Terminos y Condiciones
+              </label>
+            </div>
+      
+            <div class="formulario__mensaje" id="formulario__mensaje">
+              <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+            </div>
+      
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+              <button type="submit" class="formulario__btn">Enviar</button>
+              <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+            </div>
+          </form>
+
+          <div class="container-form" id="contact">
+            <div class="info-form">
+              <h2>Contáctanos</h2>
+              <p>Estamos a tu disposicion para cualquier servicio que solicites. Envianos tu informacion y te
+                contactaremos</p>
+              <a href="#"><i class="fa fa-phone"></i> 321 546 9870</a>
+              <a href="#"><i class="fa fa-envelope"></i> servicios@spacemail.com</a>
+              <a href="#"><i class="fa fa-map-marked"></i> Colombia, bogotá</a>
+            </div>
+            <form form action="https://formspree.io/f/mbjweldr" method="POST" autocomplete="off">
+              <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+              <input type="emal" name="email" placeholder="Tu Email" class="campo">
+              <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea><br><br>
+              <input style="color: white; background-color: #000;" type="submit" name="enviar" value="Enviar Mensaje"
+                class="btn-enviar">
+            </form>
+          </div>
+
+          <div class="container my-5">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start text-white" style="background-color: #000000">
+              <!-- Grid container -->
+              <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                  <!--Grid row-->
+                  <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Space Music
+                      </h6>
+                      <p>
+                        Somos una empresa que distribuye discografias con convenios con las disqueras
+                        oficiales de los artistas, además se ofrecen prodcutos como forros personalizados
+                        para el móvil, llaveros y discos coleccionables.
+                      </p>
+                    </div>
+
+                    <!-- -->
+
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                      <p>
+                        <a class="text-white" style="text-decoration: none;">Accesorios para teléfono</a>
+                      </p>
+                      <p>
+                        <a class="text-white" style="text-decoration: none;">Discografías</a>
+                      </p>
+                      <p>
+                        <a class="text-white" style="text-decoration: none;">Vinilos</a>
+                      </p>
+                      <p>
+                        <a class="text-white" style="text-decoration: none;">Membresías</a>
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" style="text-decoration: none;">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Home
+                      </h6>
+                      <p>
+                        <a class="text-white" style="text-decoration: none;">Nuestros Productos</a>
+                      </p>
+                      <p>
+                        <a class="text-white" style="text-decoration: none;">Soluciones</a>
+                      </p>
+                      <p>
+                        <a class="text-white" style="text-decoration: none;">Blog</a>
+                      </p>
+                      <p>
+                        <a class="text-white" style="text-decoration: none;">¿Quienes Somos?</a>
+                      </p>
+                      <p>
+                        <a class="text-white" href="#form" style="text-decoration: none;">Contáctanos</a>
+                      </p>
+                    </div>
+
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                      <p><i class="fas fa-home mr-3"></i> Cra 17a # 106-30, Bogotá</p>
+                      <p><i class="fas fa-envelope mr-3"></i> servicios@spacemail.com</p>
+                      <p><i class="fas fa-phone mr-3"></i> 321 546 9870</p>
+                      <p><i class="fas fa-print mr-3"></i> 314 369 2587</p>
+                    </div>
+                    <!-- Grid column -->
+                  </div>
+                  <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+                <hr class="my-3">
+
+                <!-- Section: Copyright -->
+                <section class="p-3 pt-0">
+                  <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                      <!-- Copyright -->
+                      <div class="p-3">
+                        © 2022 Copyright:
+                        <a style="text-decoration: none;" class="text-white" href="https://www.spotify.com/co/">Space
+                          Music </a>
+                      </div>
+                      <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                      <!-- Facebook -->
+                      <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                          class="fab fa-facebook-f"></i></a>
+
+                      <!-- Twitter -->
+                      <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                          class="fab fa-twitter"></i></a>
+
+                      <!-- Google -->
+                      <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                          class="fab fa-google"></i></a>
+
+                      <!-- Instagram -->
+                      <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                          class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- Grid column -->
+                  </div>
+                </section><br>
+                <!-- Section: Copyright -->
+              </div>
+              <!-- Grid container -->
+            </footer>
+            <!-- Footer -->
+          </div>
         </div>
+      </div>
+    </div>
+  </main>
 
-    </main>
 
-    <script src="js/script.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
@@ -367,4 +703,3 @@ main{
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
