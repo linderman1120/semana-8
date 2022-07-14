@@ -25,6 +25,9 @@
         id="pills-tab"
         role="tablist"
       >
+      <li class="nav-item" role="presentation" style="background-color: black;">
+        <a style="background-color: black; color: white;" href="file:///C:/Users/S-01/Documents/Web%20Site/src/app/app.component.html">Inicio</a>
+      </li>
         <li class="nav-item" role="presentation" style="background-color: black;">
           <a style="background-color: black; color: white;"
             class="nav-link active"
@@ -38,29 +41,12 @@
             >Productos</a
           >
         </li>
-        <li class="nav-item" role="presentation">
-          <a style="background-color: black; color: white;"
-            class="nav-link"
-            id="pills-contact-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-contact"
-            type="button"
-            role="tab"
-            aria-controls="pills-contact"
-            aria-selected="false"
-            >Carrito</a
-          >
-        </li>
+
       </ul>
     </header>
 
 
-    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
-    Producto Añadido al carrito!
-    </div>
-    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
-      Producto removido!
-    </div>
+
 
     <div class="tab-content" id="pills-tabContent">
       <div
@@ -89,9 +75,17 @@
                 <p class="">✓ Escucha tu musica favorita</p>
                 <p class="">✓ Reproduce tus canciones favoritas en cualquier lugar del mundo, incluso sin conexion a internet</p>
                 <p class="">✓ Renueva tu paquete despues del periodo de prueba</p>
-                <h5 class="" style="color: white;">Precio: <span class="precio">$20000</span></h5>
+                <h5 class="" style="color: white;">Precio: <span class="precio">$20,00</span></h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button" style="background-color: white; color: black;">Añadir a Carrito</button>
+                  <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="58NUPFLZK47WE">
+                      <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+                  </div>
               </div>
               </div>
             </div>
@@ -104,9 +98,17 @@
                 <p class=""> ✓ 2 cuentas Premium para parejas que conviven</p>
                 <p class=""> ✓ Reproduccion de musica sin anuncios, sin conexion</p>
                 <p class=""> ✓ Renueva tu paquete despues del periodo de prueba</p>
-                <h5 class="" style="color: white;">Precio: <span class="precio">$ 23000</span></h5>
+                <h5 class="" style="color: white;">Precio: <span class="precio">$ 23,00</span></h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button" style="background-color: white; color: black;">Añadir a Carrito</button>
+                  <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="58NUPFLZK47WE">
+                      <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+                  </div>
               </div>
               </div>
             </div>
@@ -119,9 +121,17 @@
                 <p class=""> ✓ 6 cuentas Premium para familiares que conviven</p>
                 <p class=""> ✓ Reproduccion de musica sin anuncios y sin conexion</p>
                 <p class=""> ✓ Renueva tu paquete despues del periodo de prueba</p>
-                <h5 class="" style="color: white;">Precio: <span class="precio">$25000</span></h5>
+                <h5 class="" style="color: white;">Precio: <span class="precio">$25,00</span></h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button" style="background-color: white; color: black;">Añadir a Carrito</button>
+                  <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="58NUPFLZK47WE">
+                      <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+                  </div>
               </div>
               </div>
             </div>
@@ -134,9 +144,17 @@
                 <p class=""> ✓ Descuento especial para estudiantes universitarios que cumplan con los requisitos</p>
                 <p class=""> ✓ Escucha musica sin anuncios</p>
                 <p class=""> ✓ Escucha contenido en cualquiera lugar, incluso sin conexion</p>
-                <h5 class="" style="color: white;">Precio: <span class="precio">$5000</span></h5>
+                <h5 class="" style="color: white;">Precio: <span class="precio">$5,00</span></h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button" style="background-color: white; color: black;">Añadir a Carrito</button>
+                  <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="58NUPFLZK47WE">
+                      <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+                  </div>
               </div>
               </div>
             </div>
@@ -150,9 +168,17 @@
                 <p class="">✓ Escucha tu musica favorita</p>
                 <p class="">✓ Obten beneficios</p>
                 <p class="">✓ Renueva tu paquete despues del periodo de prueba</p>
-                <h5 class="" style="color: white;">Precio: <span class="precio">$30000</span></h5>
+                <h5 class="" style="color: white;">Precio: <span class="precio">$30,00</span></h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button" style="background-color: white; color: black;">Añadir a Carrito</button>
+                  <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="58NUPFLZK47WE">
+                      <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+                  </div>
               </div>
               </div>
             </div>
@@ -166,9 +192,17 @@
                 <p class="">✓ Escucha tu musica favorita</p>
                 <p class="">✓ Descargas desde nuestra pagina principal</p>
                 <p class="">✓ Renueva tu paquete despues del periodo de prueba</p>
-                <h5 class="" style="color: white;">Precio: <span class="precio">$10000</span></h5>
+                <h5 class="" style="color: white;">Precio: <span class="precio">$8,00</span></h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button" style="background-color: white; color: black;">Añadir a Carrito</button>
+                  <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="58NUPFLZK47WE">
+                      <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+                  </div>
               </div>
               </div>
             </div>
@@ -187,8 +221,8 @@
                 <div>
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="XKSMEL2RL2NZ8">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="hidden" name="hosted_button_id" value="58NUPFLZK47WE">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
                     </form>
 
@@ -206,9 +240,17 @@
                 <p class="">✓ Escucha tu musica favorita</p>
                 <p class="">✓ Sin anuncios molestos y descargas ilimitadas</p>
                 <p class="">✓ Renueva tu paquete despues del periodo de prueba</p>
-                <h5 class="" style="color: white;">Precio: <span class="precio">$11000</span></h5>
+                <h5 class="" style="color: white;">Precio: <span class="precio">$12,00</span></h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button" style="background-color: white; color: black;">Añadir a Carrito</button>
+                  <div style="margin-top: 20px;">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="58NUPFLZK47WE">
+                      <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                  </div>
               </div>
               </div>
             </div>
@@ -258,7 +300,7 @@
     </div>
 
     <footer class=" p-3 mt-5">
-      <p class="" style="background-color: white; color: black; text-align: center;">Spotify</p>
+      <p class="" style="background-color: white; color: black; text-align: center;">Nuestros Productos</p>
     </footer>
 
     <script
